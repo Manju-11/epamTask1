@@ -1,0 +1,22 @@
+h1{
+    background-color: #bf78de;
+    text-align: center;
+    padding: 25px;
+}
+.labels{
+    size: 50px;
+    text-align: center;
+}
+.cake.img{
+    width: 40%;
+    height: 30%;
+}
+.cake {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+.text {
+    font-size: 20px;
+  }
