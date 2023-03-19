@@ -1,22 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+}
 h1{
-    background-color: #bf78de;
-    text-align: center;
-    padding: 25px;
+  background-color: aqua;
+  text-align: center;
+  padding: 12px;
 }
-.labels{
-    size: 50px;
-    text-align: center;
+.navbar{
+  background-color: black;
+  overflow: hidden;
 }
-.cake.img{
-    width: 40%;
-    height: 30%;
+.navbar a{
+  float: left;
+  color: aquamarine;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px ;
+  padding: 12px 14px;
 }
-.cake {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-   }
-.text {
-    font-size: 20px;
+.navbar a:hover{
+  background-color: aqua;
+  color: black;
+}
+#div1{
+  background-color: aqua;
+  width: 23.33%;
+  float:right;
+  height: fit-content;
+}
+#div2{
+  background-color: aqua;
+  height: 100% ;
+  width: 23.33%;
+  float:left;
+  
+}
+#div3{
+  background-color: black;
+  width: 53.33%;
+  margin:0 auto;
+  color: aqua;
 }
